@@ -1,0 +1,49 @@
+header{
+  background-color: #ccc;
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  border-radius: 5px;
+}
+header img{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  
+}
+.pc1,.pc2,.pc3{
+  float: left;
+  margin-left: 4.5%;
+  margin-top: 10px;
+  background-color: #ccc;
+  width: 100%;
+  max-width: 300px;
+  transition: 1s 0.5ms border-radius ease;
+  border: solid gray 10px;
+}
+.pc1:hover,.pc2:hover,.pc3:hover{
+  border-radius: 10px;
+}
+.pc1 img,.pc2 img,.pc3 img {
+  width: 250px;
+  height: 150px;
+  margin: 10px 10px;
+  padding: 0px 15px;
+}
+.pc1 button,.pc2 button,.pc3 button{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 280px;
+  color: gray;
+  border: gray 1px solid;
+  border-radius: 10px;
+}
+.pc1 ul , .pc2 ul , .pc3 ul{
+  list-style: none;
+  padding-left: 10px;
+  color: gray;
+  padding: 0px 30px;
+}
